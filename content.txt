@@ -1,0 +1,8 @@
+random.random()	                        Returns a random float between 0.0 and 1.0
+random.randint(a, b)	                Returns a random integer between a and b (inclusive)
+random.randrange(start, stop[, step])	Returns a randomly selected element from range(start, stop, step)
+random.choice(sequence)	                Returns a randomly selected element from a non-empty sequence (like list or string)
+random.choices(population, weights=None, k=1)	Returns a list of k random elements (with replacement)
+random.sample(population, k)	        Returns a list of k unique elements (without replacement)
+random.shuffle(list)	                Shuffles a list in-place
+random.uniform(a, b)	                Returns a random float between a and b
